@@ -1,0 +1,13 @@
+from random import randint
+import random
+spisok = []
+nol = 1
+while nol <= 1000:
+    spisok.append(randint(100000,110000))
+    nol += 1
+spisok1 = spisok.copy()
+print(spisok)
+while len(spisok1) > 4:
+    spisok1.remove(min(spisok1))
+random.shuffle(spisok1)
+print(spisok1)
