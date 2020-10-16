@@ -1,0 +1,5 @@
+import random
+func = lambda x, y: pow(x, (1/y))
+odin = random.randint(1, 100)
+dva = random.randint(1, 10)
+print(func(odin, dva))
