@@ -1,0 +1,8 @@
+import random
+
+maxim = [int(random.random()*100) for i in range(100)]
+ch = [int(i) for i in maxim if i % 2 == 0]
+nech = [int(i) for i in maxim if i % 2 != 0]
+ 
+print(mas)
+print(ch, nch)
