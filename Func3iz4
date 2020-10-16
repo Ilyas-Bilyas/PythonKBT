@@ -1,0 +1,10 @@
+import random
+maxim = [int(random.random()*100) for i in range(100)]
+poslednee = [int(i) for i in maxim if i % 2 != 0]
+pervoe = [int(i) for i in maxim if i % 2 == 0]
+odin = [int(i) for i in maxim if i % 10 == 1]
+
+print(maxim)
+print(pervoe[0])
+print(poslednee[-1])
+print(odin)
